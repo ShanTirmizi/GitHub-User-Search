@@ -1,5 +1,8 @@
 import React from 'react';
-import { Info, Repos, User, Search } from '../components';
+import Search from '../components/Search';
+import User from '../components/User';
+import Info from '../components/Info';
+
 import loadingImage from '../images/preloader.gif';
 import { GithubContext } from '../context/context';
 import './Dashboard.css';
