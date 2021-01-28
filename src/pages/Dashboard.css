@@ -1,0 +1,23 @@
+
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+}
+
+.home-left-container {
+    margin: 1.5rem;
+    background: var(--color-1);
+    border-radius: 20px;
+    width: auto;
+
+}
+
+.home-right-container {
+    background: var(--color-1);
+    border-radius: 20px;
+    margin: 1.5rem;
+    width: 65%;
+}
+
