@@ -30,7 +30,7 @@ const Search = () => {
           </form>
         </div>
         <div className='search-center-1'>
-          <h3>requests : {requests} / 60</h3>
+          <h3>Requests : {requests} / 60</h3>
         </div>
       </div>
     </section>

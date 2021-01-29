@@ -28,7 +28,7 @@ const Card = () => {
           <MdBusiness className="card-info-icon" /> {company || 'Company not found'}
         </p>
         <p className="card-info-element">
-          <MdLocationOn className="card-info-icon" /> {location || 'earth'}
+          <MdLocationOn className="card-info-icon" /> {location || 'Earth'}
         </p>
         <a className="card-info-element blog" href={`https://${blog}`}>
           <MdLink className="card-info-icon" />

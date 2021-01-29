@@ -34,6 +34,13 @@
     padding: 1rem;
     border-radius: 999px;
     border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-center-1 {
+    display: flex;
+    justify-content: center;
 }
 
 .search-center-1 h3 {

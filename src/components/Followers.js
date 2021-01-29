@@ -15,7 +15,7 @@ const Followers = () => {
                 <div className='followers-container'>
                   <img src={follower.avatar_url} alt={follower.login} />
                   <div className='followers-container-info'>
-                  <h4>{follower.login}</h4>
+                  <h4>{follower.login || 'No followers found'}</h4>
                   <a href={follower.html_url}>{follower.html_url}</a>
                   </div>
                 </div>
